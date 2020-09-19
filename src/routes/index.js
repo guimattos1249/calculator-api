@@ -3,6 +3,7 @@ const Calculadora = require('../controllers/Calculadora')
 
 const routes = express.Router();
 
+routes.get('/', Calculadora.main);
 routes.post('/somar', Calculadora.somar);
 routes.post('/subtrair', Calculadora.subtrair);
 routes.post('/dividir', Calculadora.dividir);

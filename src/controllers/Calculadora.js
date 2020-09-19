@@ -1,6 +1,10 @@
 const { sqrt, pow } = require('mathjs')
 
 module.exports = {
+    main(req, res) {
+        return res.json({msg: "Bem Vindo a API, olhe em https://github.com/guimattos1249/calculator-api/blob/master/README.md para saber como utilizar!"})
+    },
+
     somar(req, res) {
         const obj = req.body;
 
