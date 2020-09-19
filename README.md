@@ -5,6 +5,8 @@ Comando para executar o node: npm start;
 
 ---------------------------------------------------------
 
+URL da API: https://calculator-api-guilherme.herokuapp.com
+
 Rotas:
 
 /somar: POST - 
